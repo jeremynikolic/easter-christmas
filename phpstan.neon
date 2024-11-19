@@ -1,0 +1,11 @@
+parameters:
+    checkMissingIterableValueType: true
+
+    level: 5
+
+    paths:
+        - src
+        - tests
+
+    ignoreErrors:
+        - '#Unsafe usage of new static#'
